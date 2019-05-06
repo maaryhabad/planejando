@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD3A903022806BBC00F77AEA /* Questões.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3A902F22806BBC00F77AEA /* Questões.swift */; };
+		CD3A903222806C7200F77AEA /* arrayQuestoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3A903122806C7200F77AEA /* arrayQuestoes.swift */; };
 		CDA60158228062AF006D930D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA60157228062AF006D930D /* AppDelegate.swift */; };
 		CDA6015A228062AF006D930D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA60159228062AF006D930D /* ViewController.swift */; };
 		CDA6015D228062AF006D930D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA6015B228062AF006D930D /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD3A902F22806BBC00F77AEA /* Questões.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Questões.swift"; sourceTree = "<group>"; };
+		CD3A903122806C7200F77AEA /* arrayQuestoes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arrayQuestoes.swift; sourceTree = "<group>"; };
 		CDA60154228062AF006D930D /* Pl@anejando.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pl@anejando.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA60157228062AF006D930D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDA60159228062AF006D930D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -110,6 +114,8 @@
 				CDA60160228062B0006D930D /* LaunchScreen.storyboard */,
 				CDA60163228062B0006D930D /* Info.plist */,
 				CDA60186228062F5006D930D /* fonts */,
+				CD3A902F22806BBC00F77AEA /* Questões.swift */,
+				CD3A903122806C7200F77AEA /* arrayQuestoes.swift */,
 			);
 			path = "Pl@anejando";
 			sourceTree = "<group>";
@@ -277,6 +283,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDA6015A228062AF006D930D /* ViewController.swift in Sources */,
+				CD3A903022806BBC00F77AEA /* Questões.swift in Sources */,
+				CD3A903222806C7200F77AEA /* arrayQuestoes.swift in Sources */,
 				CDA60158228062AF006D930D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
