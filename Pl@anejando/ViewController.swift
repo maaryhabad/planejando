@@ -12,10 +12,10 @@ class ViewController: UIViewController {
     
     var perguntaSelecionada = 0
     
-    var teorico = 0
-    var pragmatico = 0
-    var reflexivo = 0
-    var ativo = 0
+    var teorico = 0 //1
+    var pragmatico = 0 //2
+    var reflexivo = 0 //3
+    var ativo = 0 //4
     
     var questao : Questões!
 

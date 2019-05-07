@@ -13,7 +13,7 @@ class Questões {
     var questao: String
     var estiloDaQuestao: String
     
-    init(numeroDaQuestao: Int, questao: String, estiloDaQuestao: String) {
+    init(numeroDaQuestao: Int, questao: String, estiloDaQuestao: Int) {
         self.numeroDaQuestao = numeroDaQuestao
         self.questao = questao
         self.estiloDaQuestao = estiloDaQuestao
