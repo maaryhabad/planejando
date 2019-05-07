@@ -57,29 +57,55 @@
         <!--View Controller-->
         <scene sceneID="GSr-Hb-9zp">
             <objects>
-                <viewController id="4WT-g6-nhI" sceneMemberID="viewController">
+                <viewController id="4WT-g6-nhI" customClass="ViewController" customModule="Pl_anejando" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Fnq-0W-HtY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Descubra qual é o seu estilo de aprendizagem." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7eh-yx-Gdp">
-                                <rect key="frame" x="20" y="381" width="374" height="134"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aqui vai a pergunta" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7eh-yx-Gdp">
+                                <rect key="frame" x="20" y="408.5" width="374" height="89.5"/>
                                 <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="271" translatesAutoresizingMaskIntoConstraints="NO" id="VsH-bN-C24">
+                                <rect key="frame" x="20" y="814" width="374" height="48"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="khj-0W-HPp">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="48"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="Sim">
+                                            <color key="titleColor" red="0.3921568627" green="0.64705882349999999" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YBW-9b-btn">
+                                        <rect key="frame" x="321" y="0.0" width="53" height="48"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="Não">
+                                            <color key="titleColor" red="0.3921568627" green="0.64705882349999999" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="7eh-yx-Gdp" firstAttribute="centerX" secondItem="0QS-l1-9DJ" secondAttribute="centerX" id="6Mp-9g-Mo5"/>
-                            <constraint firstItem="7eh-yx-Gdp" firstAttribute="centerY" secondItem="0QS-l1-9DJ" secondAttribute="centerY" id="FGf-PW-pvf"/>
+                            <constraint firstItem="0QS-l1-9DJ" firstAttribute="trailing" secondItem="7eh-yx-Gdp" secondAttribute="trailing" constant="20" id="1Hu-Iq-G9D"/>
+                            <constraint firstItem="0QS-l1-9DJ" firstAttribute="bottom" secondItem="VsH-bN-C24" secondAttribute="bottom" id="EIl-qg-jhl"/>
+                            <constraint firstItem="VsH-bN-C24" firstAttribute="leading" secondItem="0QS-l1-9DJ" secondAttribute="leading" constant="20" id="T4l-D5-Sgl"/>
+                            <constraint firstItem="7eh-yx-Gdp" firstAttribute="leading" secondItem="0QS-l1-9DJ" secondAttribute="leading" constant="20" id="dON-Yx-2Sp"/>
+                            <constraint firstItem="0QS-l1-9DJ" firstAttribute="trailing" secondItem="VsH-bN-C24" secondAttribute="trailing" constant="20" id="de4-5X-eYY"/>
+                            <constraint firstItem="7eh-yx-Gdp" firstAttribute="centerY" secondItem="0QS-l1-9DJ" secondAttribute="centerY" id="qVI-8M-bD8"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="0QS-l1-9DJ"/>
                     </view>
+                    <connections>
+                        <outlet property="labelQuestion" destination="7eh-yx-Gdp" id="DL4-jv-b3F"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GhZ-tV-T1N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="883" y="116"/>
+            <point key="canvasLocation" x="882.60869565217399" y="115.84821428571428"/>
         </scene>
     </scenes>
 </document>
