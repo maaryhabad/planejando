@@ -11,7 +11,7 @@ import Foundation
 class Questões {
     var numeroDaQuestao: Int
     var questao: String
-    var estiloDaQuestao: String
+    var estiloDaQuestao: Int
     
     init(numeroDaQuestao: Int, questao: String, estiloDaQuestao: Int) {
         self.numeroDaQuestao = numeroDaQuestao

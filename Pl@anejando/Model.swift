@@ -15,6 +15,9 @@ class Model {
         
     }
     
+    let pessoa = [
+    Estilos(ativo: 0, reflexivo: 0, pragmático: 0, teórico: 0)
+    ]
     
     let questoes = [
         Questões(numeroDaQuestao: 1, questao: "Tenho fama de dizer o que penso claramente e sem rodeios.", estiloDaQuestao: 2),
@@ -22,7 +25,7 @@ class Model {
         Questões(numeroDaQuestao: 3, questao: "Muitas vezes faço, sem olhar as consequências.", estiloDaQuestao: 4),
         Questões(numeroDaQuestao: 4, questao: "Normalmente, resolvo os problemas metodicamente e passo a passo.", estiloDaQuestao: 1),
         Questões(numeroDaQuestao: 5, questao: "Creio que a formalidade corta e limita a atuação espontânea das pessoas.", estiloDaQuestao: 4),
-        Questões(numeroDaQuestao: 6, questao: "Interesa-me saber quais são os valores dos outros e com que critérios atuam.", estiloDaQuestao: 1),
+        Questões(numeroDaQuestao: 6, questao: "Interessa-me saber quais são os valores dos outros e com que critérios atuam.", estiloDaQuestao: 1),
         Questões(numeroDaQuestao: 7, questao: "Penso que agir intuitivamente pode ser sempre tão válido como atuar reflexivamente.", estiloDaQuestao: 4),
         Questões(numeroDaQuestao: 8, questao: "Creio que o mais importante é que as coisas funcionem", estiloDaQuestao: 2),
         Questões(numeroDaQuestao: 9, questao: "Procuro estar atento(a) ao que acontece aqui e agora", estiloDaQuestao: 4),
