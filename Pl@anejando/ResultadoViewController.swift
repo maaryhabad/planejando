@@ -24,5 +24,15 @@ class ResultadoViewController: UIViewController {
         pontPragmático.text = String(pessoa.pragmático)
     }
     
+    @IBAction func runStyle(_ sender: Any) {
+        
+        let btnStyle = sender as! UIButton
+        
+        let vc = storyboard?.instantiateViewController(withIdentifier: "styleviewcontroller") as! StylesViewController
+        vc.styleID = btnStyle.tag
+        self.navigationController!.pushViewController(vc, animated: true)
+        
+    }
+    
     
 }

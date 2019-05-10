@@ -62,7 +62,7 @@ class ViewController: UIViewController {
             
         } else {
             
-            if let vc = self.storyboard?.instantiateViewController(withIdentifier: "resultado"){
+            if let vc = self.storyboard?.instantiateViewController(withIdentifier: "fim"){
                 self.present(vc, animated: true, completion: nil)
             }
         }
