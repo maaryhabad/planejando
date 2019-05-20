@@ -268,9 +268,21 @@
                                     <constraint firstItem="k01-01-yA3" firstAttribute="leading" secondItem="fsQ-Zc-Fg7" secondAttribute="leading" constant="27" id="z1r-C5-XcD"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qsq-7e-HZZ">
+                                <rect key="frame" x="187" y="105" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="62y-Oj-n2l"/>
+                                    <constraint firstAttribute="height" constant="40" id="boZ-ci-8wa"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="camera"/>
+                                <connections>
+                                    <action selector="tocouCamera:" destination="8xZ-Hl-VuN" eventType="touchUpInside" id="tqp-dg-YJF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="gtA-K2-8jD" firstAttribute="top" secondItem="Qsq-7e-HZZ" secondAttribute="bottom" id="57O-7z-ugY"/>
                             <constraint firstItem="fsQ-Zc-Fg7" firstAttribute="height" secondItem="v01-1F-sTO" secondAttribute="height" multiplier="0.2" id="EPY-fh-TzY"/>
                             <constraint firstItem="fsQ-Zc-Fg7" firstAttribute="width" secondItem="v01-1F-sTO" secondAttribute="width" id="GeW-V1-tup"/>
                             <constraint firstItem="r7A-BA-XqY" firstAttribute="centerX" secondItem="WTB-KP-AJY" secondAttribute="centerX" id="H1A-i4-9Q0"/>
@@ -280,6 +292,7 @@
                             <constraint firstItem="6rX-ak-Efk" firstAttribute="width" secondItem="v01-1F-sTO" secondAttribute="width" id="TXe-1v-eKh"/>
                             <constraint firstItem="r7A-BA-XqY" firstAttribute="width" secondItem="v01-1F-sTO" secondAttribute="width" id="VaF-ty-8Rs"/>
                             <constraint firstItem="6rX-ak-Efk" firstAttribute="top" secondItem="r7A-BA-XqY" secondAttribute="bottom" id="YQz-l1-HdX"/>
+                            <constraint firstItem="Qsq-7e-HZZ" firstAttribute="centerX" secondItem="WTB-KP-AJY" secondAttribute="centerX" id="bMC-Yc-vGt"/>
                             <constraint firstItem="gtA-K2-8jD" firstAttribute="centerX" secondItem="WTB-KP-AJY" secondAttribute="centerX" id="bmZ-Xg-YBG"/>
                             <constraint firstItem="6rX-ak-Efk" firstAttribute="height" secondItem="v01-1F-sTO" secondAttribute="height" multiplier="0.2" id="cGo-5J-M8q"/>
                             <constraint firstItem="WTB-KP-AJY" firstAttribute="bottom" secondItem="fsQ-Zc-Fg7" secondAttribute="bottom" id="ccd-40-u6h"/>
@@ -364,4 +377,7 @@
             <point key="canvasLocation" x="1711.5942028985507" y="115.84821428571428"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="camera" width="512" height="512"/>
+    </resources>
 </document>
