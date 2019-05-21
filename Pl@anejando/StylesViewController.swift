@@ -22,9 +22,9 @@ class StylesViewController: UIViewController {
                       "Tende a colocar em prática as ideias, faz experimentos; tem como objetivo a funcionalidade. São pessoas que ao aprenderem uma nova teoria, tem inúmeras ideias e não veem a hora de implementá-las. Diferentemente do estilo teórico ou reflexivo, são pessoas impacientes para discussões longas e sem conclusões, pois, gostam de solucionar problemas e aplicar o que aprenderam." //pragmático
                     ]
     
-    @IBOutlet weak var txtDescricao: UILabel!
-    @IBOutlet weak var titleStyle: UILabel!
     
+    @IBOutlet weak var titleStyle: UILabel!
+    @IBOutlet weak var txtDescricao: UITextView!
     
     override func viewWillAppear(_ animated: Bool) {
         txtDescricao.text = descricoes[styleID]
