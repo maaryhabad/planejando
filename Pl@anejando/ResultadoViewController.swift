@@ -34,12 +34,12 @@ class ResultadoViewController: UIViewController {
         
     }
     
-    @IBAction func tocouCamera(_ sender: Any) {
-        let renderer = UIGraphicsImageRenderer(size: view.frame.size)
-        let image = renderer.image(actions: { context in view.layer.render(in: context.cgContext)})
-        
-        // salvar na câmera
-        UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
-    }
+//    @IBAction func tocouCamera(_ sender: Any) {
+//        let renderer = UIGraphicsImageRenderer(size: view.frame.size)
+//        let image = renderer.image(actions: { context in view.layer.render(in: context.cgContext)})
+//        
+//        // salvar na câmera
+//        UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
+//    }
     
 }

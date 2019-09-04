@@ -24,13 +24,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descubra qual é o seu estilo de aprendizagem." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" minimumFontSize="30" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bjR-E8-7yT">
-                                <rect key="frame" x="41.5" y="364" width="331" height="178.5"/>
+                                <rect key="frame" x="41.5" y="383" width="331" height="140"/>
                                 <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ZW-Id-0N1">
-                                <rect key="frame" x="136.5" y="809" width="141" height="46"/>
+                                <rect key="frame" x="145.5" y="808" width="123" height="47"/>
                                 <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="30"/>
                                 <state key="normal" title="Começar">
                                     <color key="titleColor" red="0.39215686274509803" green="0.6470588235294118" blue="0.68627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -64,7 +64,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aqui vai a pergunta" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="7eh-yx-Gdp">
-                                <rect key="frame" x="41.5" y="436.5" width="331" height="33.5"/>
+                                <rect key="frame" x="41.5" y="435.5" width="331" height="35"/>
                                 <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -131,19 +131,19 @@
                                 <rect key="frame" x="0.0" y="145" width="414" height="179.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e4b-a2-Kau">
-                                        <rect key="frame" x="26" y="34" width="115.5" height="112"/>
+                                        <rect key="frame" x="26" y="31.5" width="111.5" height="116.5"/>
                                         <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="100"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ativo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kqs-eR-B6F">
-                                        <rect key="frame" x="64.5" y="133" width="38.5" height="21"/>
+                                        <rect key="frame" x="62.5" y="135" width="38.5" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wtb-uM-t09">
-                                        <rect key="frame" x="178" y="62" width="211" height="57"/>
+                                        <rect key="frame" x="201" y="62" width="188" height="59"/>
                                         <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="40"/>
                                         <state key="normal" title="Ver mais &gt;">
                                             <color key="titleColor" red="0.3921568627" green="0.64705882349999999" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -166,19 +166,19 @@
                                 <rect key="frame" x="0.0" y="324.5" width="414" height="179"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T6L-kt-j9M">
-                                        <rect key="frame" x="25" y="33.5" width="115.5" height="112"/>
+                                        <rect key="frame" x="25" y="31.5" width="111.5" height="116.5"/>
                                         <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="100"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reflexivo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3va-s0-XLm">
-                                        <rect key="frame" x="48.5" y="132.5" width="69" height="21"/>
+                                        <rect key="frame" x="46.5" y="135" width="69" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TsK-gX-Hxn">
-                                        <rect key="frame" x="178" y="62" width="211" height="57"/>
+                                        <rect key="frame" x="201" y="62" width="188" height="59"/>
                                         <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="40"/>
                                         <state key="normal" title="Ver mais &gt;">
                                             <color key="titleColor" red="0.3921568627" green="0.64705882349999999" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -202,19 +202,19 @@
                                 <rect key="frame" x="0.0" y="503.5" width="414" height="179.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AKA-hh-hjR">
-                                        <rect key="frame" x="25" y="33.5" width="115.5" height="112"/>
+                                        <rect key="frame" x="25" y="31.5" width="111.5" height="116.5"/>
                                         <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="100"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Teórico" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lXM-xs-Qvb">
-                                        <rect key="frame" x="54.5" y="132.5" width="56.5" height="21"/>
+                                        <rect key="frame" x="52.5" y="135" width="56.5" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sKg-RU-1ZX">
-                                        <rect key="frame" x="178" y="62" width="211" height="57"/>
+                                        <rect key="frame" x="201" y="62" width="188" height="59"/>
                                         <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="40"/>
                                         <state key="normal" title="Ver mais &gt;">
                                             <color key="titleColor" red="0.3921568627" green="0.64705882349999999" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -237,19 +237,19 @@
                                 <rect key="frame" x="0.0" y="683" width="414" height="179"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k01-01-yA3">
-                                        <rect key="frame" x="27" y="33.5" width="115.5" height="112"/>
+                                        <rect key="frame" x="27" y="31" width="111.5" height="116.5"/>
                                         <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="100"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pragmático" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mlu-xU-uSg">
-                                        <rect key="frame" x="41" y="132.5" width="87.5" height="21"/>
+                                        <rect key="frame" x="39" y="134.5" width="87.5" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IQn-F6-Qxk">
-                                        <rect key="frame" x="178" y="62" width="211" height="57"/>
+                                        <rect key="frame" x="201" y="62" width="188" height="59"/>
                                         <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="40"/>
                                         <state key="normal" title="Ver mais &gt;">
                                             <color key="titleColor" red="0.3921568627" green="0.64705882349999999" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -268,21 +268,20 @@
                                     <constraint firstItem="k01-01-yA3" firstAttribute="leading" secondItem="fsQ-Zc-Fg7" secondAttribute="leading" constant="27" id="z1r-C5-XcD"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qsq-7e-HZZ">
-                                <rect key="frame" x="187" y="105" width="40" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="40" id="62y-Oj-n2l"/>
-                                    <constraint firstAttribute="height" constant="40" id="boZ-ci-8wa"/>
-                                </constraints>
-                                <state key="normal" title="Button" image="camera"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Seu nome aqui" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nIp-q6-e4T">
+                                <rect key="frame" x="0.0" y="107" width="414" height="30"/>
+                                <gestureRecognizers/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" textContentType="name"/>
                                 <connections>
-                                    <action selector="tocouCamera:" destination="8xZ-Hl-VuN" eventType="touchUpInside" id="tqp-dg-YJF"/>
+                                    <outletCollection property="gestureRecognizers" destination="fEw-5Q-scd" appends="YES" id="cW4-73-lTn"/>
                                 </connections>
-                            </button>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="gtA-K2-8jD" firstAttribute="top" secondItem="Qsq-7e-HZZ" secondAttribute="bottom" id="57O-7z-ugY"/>
+                            <constraint firstItem="nIp-q6-e4T" firstAttribute="centerX" secondItem="WTB-KP-AJY" secondAttribute="centerX" id="14k-EA-KCa"/>
                             <constraint firstItem="fsQ-Zc-Fg7" firstAttribute="height" secondItem="v01-1F-sTO" secondAttribute="height" multiplier="0.2" id="EPY-fh-TzY"/>
                             <constraint firstItem="fsQ-Zc-Fg7" firstAttribute="width" secondItem="v01-1F-sTO" secondAttribute="width" id="GeW-V1-tup"/>
                             <constraint firstItem="r7A-BA-XqY" firstAttribute="centerX" secondItem="WTB-KP-AJY" secondAttribute="centerX" id="H1A-i4-9Q0"/>
@@ -292,7 +291,6 @@
                             <constraint firstItem="6rX-ak-Efk" firstAttribute="width" secondItem="v01-1F-sTO" secondAttribute="width" id="TXe-1v-eKh"/>
                             <constraint firstItem="r7A-BA-XqY" firstAttribute="width" secondItem="v01-1F-sTO" secondAttribute="width" id="VaF-ty-8Rs"/>
                             <constraint firstItem="6rX-ak-Efk" firstAttribute="top" secondItem="r7A-BA-XqY" secondAttribute="bottom" id="YQz-l1-HdX"/>
-                            <constraint firstItem="Qsq-7e-HZZ" firstAttribute="centerX" secondItem="WTB-KP-AJY" secondAttribute="centerX" id="bMC-Yc-vGt"/>
                             <constraint firstItem="gtA-K2-8jD" firstAttribute="centerX" secondItem="WTB-KP-AJY" secondAttribute="centerX" id="bmZ-Xg-YBG"/>
                             <constraint firstItem="6rX-ak-Efk" firstAttribute="height" secondItem="v01-1F-sTO" secondAttribute="height" multiplier="0.2" id="cGo-5J-M8q"/>
                             <constraint firstItem="WTB-KP-AJY" firstAttribute="bottom" secondItem="fsQ-Zc-Fg7" secondAttribute="bottom" id="ccd-40-u6h"/>
@@ -300,6 +298,8 @@
                             <constraint firstItem="r7A-BA-XqY" firstAttribute="height" secondItem="v01-1F-sTO" secondAttribute="height" multiplier="0.2" id="hXx-kH-V7D"/>
                             <constraint firstItem="r7A-BA-XqY" firstAttribute="top" secondItem="gtA-K2-8jD" secondAttribute="bottom" id="har-aQ-deO"/>
                             <constraint firstItem="fsQ-Zc-Fg7" firstAttribute="top" secondItem="6rX-ak-Efk" secondAttribute="bottom" id="s3u-gJ-LMY"/>
+                            <constraint firstItem="nIp-q6-e4T" firstAttribute="top" secondItem="WTB-KP-AJY" secondAttribute="top" constant="19" id="vBL-eb-JXT"/>
+                            <constraint firstItem="nIp-q6-e4T" firstAttribute="width" secondItem="v01-1F-sTO" secondAttribute="width" id="ybb-ce-jD8"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="WTB-KP-AJY"/>
                     </view>
@@ -312,6 +312,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dh9-GN-avq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="fEw-5Q-scd"/>
             </objects>
             <point key="canvasLocation" x="2621.739130434783" y="115.84821428571428"/>
         </scene>
@@ -324,13 +325,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Estilo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J0T-Nw-0z3">
-                                <rect key="frame" x="164" y="146" width="86" height="34"/>
+                                <rect key="frame" x="170.5" y="146" width="73.5" height="35"/>
                                 <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="30"/>
                                 <color key="textColor" red="0.29803921570000003" green="0.1647058824" blue="0.32156862749999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fnr-fA-mQZ">
-                                <rect key="frame" x="20.5" y="225" width="373" height="537.5"/>
+                                <rect key="frame" x="20.5" y="226" width="373" height="537.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="21"/>
@@ -378,7 +379,4 @@
             <point key="canvasLocation" x="1711.5942028985507" y="115.84821428571428"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="camera" width="512" height="512"/>
-    </resources>
 </document>

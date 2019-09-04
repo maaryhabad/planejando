@@ -19,9 +19,6 @@
 		CDA60162228062B0006D930D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA60160228062B0006D930D /* LaunchScreen.storyboard */; };
 		CDA6016D228062B0006D930D /* Pl_anejandoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA6016C228062B0006D930D /* Pl_anejandoTests.swift */; };
 		CDA60178228062B0006D930D /* Pl_anejandoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA60177228062B0006D930D /* Pl_anejandoUITests.swift */; };
-		CDA6018A22806313006D930D /* Comfortaa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDA6018722806313006D930D /* Comfortaa-Regular.ttf */; };
-		CDA6018B22806313006D930D /* Comfortaa-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDA6018822806313006D930D /* Comfortaa-Light.ttf */; };
-		CDA6018C22806313006D930D /* Comfortaa-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDA6018922806313006D930D /* Comfortaa-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,9 +57,6 @@
 		CDA60173228062B0006D930D /* Pl@anejandoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pl@anejandoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA60177228062B0006D930D /* Pl_anejandoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pl_anejandoUITests.swift; sourceTree = "<group>"; };
 		CDA60179228062B0006D930D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CDA6018722806313006D930D /* Comfortaa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-Regular.ttf"; path = "../../../../../Downloads/comfortaa/Comfortaa-Regular.ttf"; sourceTree = "<group>"; };
-		CDA6018822806313006D930D /* Comfortaa-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-Light.ttf"; path = "../../../../../Downloads/comfortaa/Comfortaa-Light.ttf"; sourceTree = "<group>"; };
-		CDA6018922806313006D930D /* Comfortaa-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-Bold.ttf"; path = "../../../../../Downloads/comfortaa/Comfortaa-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +113,6 @@
 				CDA6015E228062B0006D930D /* Assets.xcassets */,
 				CDA60160228062B0006D930D /* LaunchScreen.storyboard */,
 				CDA60163228062B0006D930D /* Info.plist */,
-				CDA60186228062F5006D930D /* fonts */,
 				CD3A902F22806BBC00F77AEA /* Questões.swift */,
 				CD3A903122806C7200F77AEA /* Model.swift */,
 				CD6E7A3D22846DD100F6AAEA /* ResultadoViewController.swift */,
@@ -145,16 +138,6 @@
 				CDA60179228062B0006D930D /* Info.plist */,
 			);
 			path = "Pl@anejandoUITests";
-			sourceTree = "<group>";
-		};
-		CDA60186228062F5006D930D /* fonts */ = {
-			isa = PBXGroup;
-			children = (
-				CDA6018922806313006D930D /* Comfortaa-Bold.ttf */,
-				CDA6018822806313006D930D /* Comfortaa-Light.ttf */,
-				CDA6018722806313006D930D /* Comfortaa-Regular.ttf */,
-			);
-			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,12 +244,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDA6018A22806313006D930D /* Comfortaa-Regular.ttf in Resources */,
 				CDA60162228062B0006D930D /* LaunchScreen.storyboard in Resources */,
-				CDA6018C22806313006D930D /* Comfortaa-Bold.ttf in Resources */,
 				CDA6015F228062B0006D930D /* Assets.xcassets in Resources */,
 				CDA6015D228062AF006D930D /* Main.storyboard in Resources */,
-				CDA6018B22806313006D930D /* Comfortaa-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +455,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ADP5XER6GT;
 				INFOPLIST_FILE = "Pl@anejando/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -493,6 +474,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ADP5XER6GT;
 				INFOPLIST_FILE = "Pl@anejando/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
